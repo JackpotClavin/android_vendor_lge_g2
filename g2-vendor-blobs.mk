@@ -40,7 +40,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2/proprietary/lib/liboverlay.so:system/lib/liboverlay.so \
     vendor/lge/g2/proprietary/lib/libqdutils.so:system/lib/libqdutils.so \
     vendor/lge/g2/proprietary/lib/libqservice.so:system/lib/libqservice.so \
-    vendor/lge/g2/proprietary/lib/libui.so:system/lib/libui.so \
     vendor/lge/g2/proprietary/lib/hw/copybit.msm8974.so:system/lib/hw/copybit.msm8974.so \
     vendor/lge/g2/proprietary/lib/hw/gralloc.msm8974.so:system/lib/hw/gralloc.msm8974.so \
     vendor/lge/g2/proprietary/lib/hw/hwcomposer.msm8974.so:system/lib/hw/hwcomposer.msm8974.so \
