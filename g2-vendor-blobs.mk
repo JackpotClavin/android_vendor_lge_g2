@@ -34,15 +34,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/lge/g2/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/lge/g2/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
-    vendor/lge/g2/proprietary/lib/libexternal.so:system/lib/libexternal.so \
-    vendor/lge/g2/proprietary/lib/libgenlock.so:system/lib/libgenlock.so \
-    vendor/lge/g2/proprietary/lib/libmemalloc.so:system/lib/libmemalloc.so \
-    vendor/lge/g2/proprietary/lib/liboverlay.so:system/lib/liboverlay.so \
-    vendor/lge/g2/proprietary/lib/libqdutils.so:system/lib/libqdutils.so \
-    vendor/lge/g2/proprietary/lib/libqservice.so:system/lib/libqservice.so \
-    vendor/lge/g2/proprietary/lib/hw/copybit.msm8974.so:system/lib/hw/copybit.msm8974.so \
-    vendor/lge/g2/proprietary/lib/hw/gralloc.msm8974.so:system/lib/hw/gralloc.msm8974.so \
-    vendor/lge/g2/proprietary/lib/hw/hwcomposer.msm8974.so:system/lib/hw/hwcomposer.msm8974.so \
     vendor/lge/g2/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/lge/g2/proprietary/vendor/lib/libc2d2_a3xx.so:system/vendor/lib/libc2d2_a3xx.so \
     vendor/lge/g2/proprietary/vendor/lib/libc2d2_z180.so:system/vendor/lib/libc2d2_z180.so \
@@ -54,7 +45,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
     vendor/lge/g2/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
     vendor/lge/g2/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
-    vendor/lge/g2/proprietary/vendor/lib/libsrsprocessing.so:system/vendor/lib/libsrsprocessing.so \
     vendor/lge/g2/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/lge/g2/proprietary/vendor/lib/libOpenVG.so:system/vendor/lib/libOpenVG.so \
     vendor/lge/g2/proprietary/vendor/lib/libsc-a2xx.so:system/vendor/lib/libsc-a2xx.so \
