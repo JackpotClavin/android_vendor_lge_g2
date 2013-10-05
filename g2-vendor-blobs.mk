@@ -80,14 +80,29 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2/proprietary/bin/moca:system/bin/moca \
     vendor/lge/g2/proprietary/bin/moca_restart:system/bin/moca_restart \
     vendor/lge/g2/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
+    vendor/lge/g2/proprietary/bin/brcm_patchram_plus:system/bin/brcm_patchram_plus \
+    vendor/lge/g2/proprietary/etc/DxHDCP.cfg:system/etc/DxHDCP.cfg \
     vendor/lge/g2/proprietary/etc/last_kmsg_backup.sh:system/etc/last_kmsg_backup.sh \
     vendor/lge/g2/proprietary/etc/hcidump.sh:system/etc/hcidump.sh \
     vendor/lge/g2/proprietary/etc/sap.conf:system/etc/sap.conf \
+    vendor/lge/g2/proprietary/etc/quipc.conf:system/etc/quipc.conf \
+    vendor/lge/g2/proprietary/etc/UserPolicy.xml:system/etc/UserPolicy.xml \
+    vendor/lge/g2/proprietary/etc/OperatorPolicy.xml:system/etc/OperatorPolicy.xml \
     vendor/lge/g2/proprietary/etc/qosmgr_rules.xml:system/etc/qosmgr_rules.xml \
+    vendor/lge/g2/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
+    vendor/lge/g2/proprietary/etc/cne/NsrmConfiguration.xml:system/etc/cne/NsrmConfiguration.xml \
+    vendor/lge/g2/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/lge/g2/proprietary/etc/thermald-8974.conf:system/etc/thermald-8974.conf \
     vendor/lge/g2/proprietary/etc/thermal-engine-8974.conf:system/etc/thermal-engine-8974.conf \
     vendor/lge/g2/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
     vendor/lge/g2/proprietary/etc/lowi.conf:system/etc/lowi.conf \
+    vendor/lge/g2/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
+    vendor/lge/g2/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
+    vendor/lge/g2/proprietary/etc/Global_cal.acdb:system/etc/Global_cal.acdb \
+    vendor/lge/g2/proprietary/etc/Handset_cal.acdb:system/etc/Handset_cal.acdb \
+    vendor/lge/g2/proprietary/etc/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb \
+    vendor/lge/g2/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
+    vendor/lge/g2/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
     vendor/lge/g2/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
     vendor/lge/g2/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
     vendor/lge/g2/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
@@ -136,6 +151,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2/proprietary/lib/libbson.so:system/lib/libbson.so \
     vendor/lge/g2/proprietary/lib/libMocaZip.so:system/lib/libMocaZip.so \
     vendor/lge/g2/proprietary/lib/liballjoyn.so:system/lib/liballjoyn.so \
+    vendor/lge/g2/proprietary/lib/crda/linville.key.pub.pem:system/lib/crda/linville.key.pub.pem \
+    vendor/lge/g2/proprietary/lib/crda/regulatory.bin:system/lib/crda/regulatory.bin \
     vendor/lge/g2/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/lge/g2/proprietary/vendor/lib/libc2d2_a3xx.so:system/vendor/lib/libc2d2_a3xx.so \
     vendor/lge/g2/proprietary/vendor/lib/libc2d2_z180.so:system/vendor/lib/libc2d2_z180.so \
@@ -213,6 +230,22 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2/proprietary/vendor/lib/libCommandSvc.so:system/vendor/lib/libCommandSvc.so \
     vendor/lge/g2/proprietary/vendor/lib/libtzdrmgenprov.so:system/vendor/lib/libtzdrmgenprov.so \
     vendor/lge/g2/proprietary/vendor/lib/libwifiscanner.so:system/vendor/lib/libwifiscanner.so \
+    vendor/lge/g2/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
+    vendor/lge/g2/proprietary/vendor/lib/libAKM8963.so:system/vendor/lib/libAKM8963.so \
+    vendor/lge/g2/proprietary/vendor/lib/libchromatix_imx132_common.so:system/vendor/lib/libchromatix_imx132_common.so \
+    vendor/lge/g2/proprietary/vendor/lib/libchromatix_imx132_default_video.so:system/vendor/lib/libchromatix_imx132_default_video.so \
+    vendor/lge/g2/proprietary/vendor/lib/libchromatix_imx132_mms_video.so:system/vendor/lib/libchromatix_imx132_mms_video.so \
+    vendor/lge/g2/proprietary/vendor/lib/libchromatix_imx132_preview.so:system/vendor/lib/libchromatix_imx132_preview.so \
+    vendor/lge/g2/proprietary/vendor/lib/libchromatix_imx132_vt.so:system/vendor/lib/libchromatix_imx132_vt.so \
+    vendor/lge/g2/proprietary/vendor/lib/libchromatix_imx135_common.so:system/vendor/lib/libchromatix_imx135_common.so \
+    vendor/lge/g2/proprietary/vendor/lib/libchromatix_imx135_default_video.so:system/vendor/lib/libchromatix_imx135_default_video.so \
+    vendor/lge/g2/proprietary/vendor/lib/libchromatix_imx135_hfr_60.so:system/vendor/lib/libchromatix_imx135_hfr_60.so \
+    vendor/lge/g2/proprietary/vendor/lib/libchromatix_imx135_mms_video.so:system/vendor/lib/libchromatix_imx135_mms_video.so \
+    vendor/lge/g2/proprietary/vendor/lib/libchromatix_imx135_preview.so:system/vendor/lib/libchromatix_imx135_preview.so \
+    vendor/lge/g2/proprietary/vendor/lib/libchromatix_imx135_snapshot.so:system/vendor/lib/libchromatix_imx135_snapshot.so \
+    vendor/lge/g2/proprietary/vendor/lib/libchromatix_imx135_video_dualrec.so:system/vendor/lib/libchromatix_imx135_video_dualrec.so \
+    vendor/lge/g2/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
+    vendor/lge/g2/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     vendor/lge/g2/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/lge/g2/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/lge/g2/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
