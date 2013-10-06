@@ -122,6 +122,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/lge/g2/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/lge/g2/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
+    vendor/lge/g2/proprietary/etc/firmware/fw_bcmdhd.bin:system/etc/firmware/fw_bcmdhd.bin \
+    vendor/lge/g2/proprietary/etc/firmware/fw_bcmdhd_apsta.bin:system/etc/firmware/fw_bcmdhd_apsta.bin \
+    vendor/lge/g2/proprietary/etc/firmware/fw_bcmdhd_mfg.bin:system/etc/firmware/fw_bcmdhd_mfg.bin \
     vendor/lge/g2/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
     vendor/lge/g2/proprietary/lib/libvss_common_idl.so:system/lib/libvss_common_idl.so \
     vendor/lge/g2/proprietary/lib/libvss_common_iface.so:system/lib/libvss_common_iface.so \
