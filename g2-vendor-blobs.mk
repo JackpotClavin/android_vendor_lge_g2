@@ -154,8 +154,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2/proprietary/lib/libbson.so:system/lib/libbson.so \
     vendor/lge/g2/proprietary/lib/libMocaZip.so:system/lib/libMocaZip.so \
     vendor/lge/g2/proprietary/lib/liballjoyn.so:system/lib/liballjoyn.so \
+    vendor/lge/g2/proprietary/lib/libproxyhal.so:system/lib/libproxyhal.so \
     vendor/lge/g2/proprietary/lib/crda/linville.key.pub.pem:system/lib/crda/linville.key.pub.pem \
     vendor/lge/g2/proprietary/lib/crda/regulatory.bin:system/lib/crda/regulatory.bin \
+    vendor/lge/g2/proprietary/lib/hw/camera.msm8974.so:system/lib/hw/camera.msm8974.so \
+    vendor/lge/g2/proprietary/lib/hw/lights.msm8974.so:system/lib/hw/lights.msm8974.so \
     vendor/lge/g2/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/lge/g2/proprietary/vendor/lib/libc2d2_a3xx.so:system/vendor/lib/libc2d2_a3xx.so \
     vendor/lge/g2/proprietary/vendor/lib/libc2d2_z180.so:system/vendor/lib/libc2d2_z180.so \
@@ -249,6 +252,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2/proprietary/vendor/lib/libchromatix_imx135_video_dualrec.so:system/vendor/lib/libchromatix_imx135_video_dualrec.so \
     vendor/lge/g2/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     vendor/lge/g2/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
+    vendor/lge/g2/proprietary/vendor/lib/hw/sensors.msm8974.so:system/vendor/lib/hw/sensors.msm8974.so \
     vendor/lge/g2/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/lge/g2/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/lge/g2/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
