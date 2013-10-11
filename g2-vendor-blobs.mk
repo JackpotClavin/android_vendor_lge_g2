@@ -80,6 +80,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2/proprietary/bin/moca_restart:system/bin/moca_restart \
     vendor/lge/g2/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/lge/g2/proprietary/bin/brcm_patchram_plus:system/bin/brcm_patchram_plus \
+    vendor/lge/g2/proprietary/bin/rild:system/bin/rild \
     vendor/lge/g2/proprietary/etc/DxHDCP.cfg:system/etc/DxHDCP.cfg \
     vendor/lge/g2/proprietary/etc/last_kmsg_backup.sh:system/etc/last_kmsg_backup.sh \
     vendor/lge/g2/proprietary/etc/hcidump.sh:system/etc/hcidump.sh \
@@ -131,6 +132,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2/proprietary/lib/libvss_ims_qcci.so:system/lib/libvss_ims_qcci.so \
     vendor/lge/g2/proprietary/lib/libvss_nv_idl.so:system/lib/libvss_nv_idl.so \
     vendor/lge/g2/proprietary/lib/libvss_nv_iface.so:system/lib/libvss_nv_iface.so \
+    vendor/lge/g2/proprietary/lib/libvss_common_core.so:system/lib/libvss_common_core.so \
+    vendor/lge/g2/proprietary/lib/libvss_nv_core.so:system/lib/libvss_nv_core.so \
     vendor/lge/g2/proprietary/lib/libnl_2.so:system/lib/libnl_2.so \
     vendor/lge/g2/proprietary/lib/liblgftmitem.so:system/lib/liblgftmitem.so \
     vendor/lge/g2/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
@@ -154,6 +157,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2/proprietary/lib/libMocaZip.so:system/lib/libMocaZip.so \
     vendor/lge/g2/proprietary/lib/liballjoyn.so:system/lib/liballjoyn.so \
     vendor/lge/g2/proprietary/lib/libproxyhal.so:system/lib/libproxyhal.so \
+    vendor/lge/g2/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/lge/g2/proprietary/lib/crda/linville.key.pub.pem:system/lib/crda/linville.key.pub.pem \
     vendor/lge/g2/proprietary/lib/crda/regulatory.bin:system/lib/crda/regulatory.bin \
     vendor/lge/g2/proprietary/lib/hw/camera.msm8974.so:system/lib/hw/camera.msm8974.so \
