@@ -69,7 +69,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/lge/g2/proprietary/bin/lowi-server:system/bin/lowi-server \
     vendor/lge/g2/proprietary/bin/drmdiagapp:system/bin/drmdiagapp \
-    vendor/lge/g2/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/lge/g2/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/lge/g2/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
     vendor/lge/g2/proprietary/bin/profiler_daemon:system/bin/profiler_daemon \
