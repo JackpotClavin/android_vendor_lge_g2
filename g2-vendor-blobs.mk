@@ -156,7 +156,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2/proprietary/lib/libbson.so:system/lib/libbson.so \
     vendor/lge/g2/proprietary/lib/libMocaZip.so:system/lib/libMocaZip.so \
     vendor/lge/g2/proprietary/lib/liballjoyn.so:system/lib/liballjoyn.so \
-    vendor/lge/g2/proprietary/lib/libproxyhal.so:system/lib/libproxyhal.so \
     vendor/lge/g2/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/lge/g2/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/lge/g2/proprietary/lib/libHDR.so:system/lib/libHDR.so \
@@ -167,7 +166,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2/proprietary/lib/crda/linville.key.pub.pem:system/lib/crda/linville.key.pub.pem \
     vendor/lge/g2/proprietary/lib/crda/regulatory.bin:system/lib/crda/regulatory.bin \
     vendor/lge/g2/proprietary/lib/hw/camera.msm8974.so:system/lib/hw/camera.msm8974.so \
-    vendor/lge/g2/proprietary/lib/hw/lights.msm8974.so:system/lib/hw/lights.msm8974.so \
     vendor/lge/g2/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/lge/g2/proprietary/vendor/lib/libc2d2_a3xx.so:system/vendor/lib/libc2d2_a3xx.so \
     vendor/lge/g2/proprietary/vendor/lib/libc2d2_z180.so:system/vendor/lib/libc2d2_z180.so \
