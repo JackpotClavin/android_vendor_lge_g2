@@ -158,6 +158,12 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2/proprietary/lib/liballjoyn.so:system/lib/liballjoyn.so \
     vendor/lge/g2/proprietary/lib/libproxyhal.so:system/lib/libproxyhal.so \
     vendor/lge/g2/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/lge/g2/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
+    vendor/lge/g2/proprietary/lib/libHDR.so:system/lib/libHDR.so \
+    vendor/lge/g2/proprietary/lib/libmorpho_noise_reduction.so:system/lib/libmorpho_noise_reduction.so \
+    vendor/lge/g2/proprietary/lib/libmorpho_image_stab31.so:system/lib/libmorpho_image_stab31.so \
+    vendor/lge/g2/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
+    vendor/lge/g2/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/lge/g2/proprietary/lib/crda/linville.key.pub.pem:system/lib/crda/linville.key.pub.pem \
     vendor/lge/g2/proprietary/lib/crda/regulatory.bin:system/lib/crda/regulatory.bin \
     vendor/lge/g2/proprietary/lib/hw/camera.msm8974.so:system/lib/hw/camera.msm8974.so \
@@ -255,6 +261,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2/proprietary/vendor/lib/libchromatix_imx135_video_dualrec.so:system/vendor/lib/libchromatix_imx135_video_dualrec.so \
     vendor/lge/g2/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     vendor/lge/g2/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
+    vendor/lge/g2/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
+    vendor/lge/g2/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
+    vendor/lge/g2/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
+    vendor/lge/g2/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
+    vendor/lge/g2/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
     vendor/lge/g2/proprietary/vendor/lib/hw/sensors.msm8974.so:system/vendor/lib/hw/sensors.msm8974.so \
     vendor/lge/g2/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/lge/g2/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
